@@ -31,6 +31,19 @@ Feel free to reach out to us through the following channels:
 
 We welcome contributions from developers! Here are some guidelines to get you started:
 
+### 🚨 Using Git LFS
+The mod repository uses Git LFS to manage large audio files. Ensure you have Git LFS installed before cloning the repository. To install Git LFS, visit the [official website](https://git-lfs.com/).
+The following git hooks are available in the `utils/git-hooks` directory:
+- `pre-push`
+- `post-checkout`
+- `post-merge`
+- `post-commit`
+
+Install the hooks by running the following command:
+```
+git config core.hooksPath utils/git-hooks
+```
+
 ### Pull Requests
 
 - Ensure your pull request (PR) improves the mod in some way.
